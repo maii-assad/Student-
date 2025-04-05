@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Library - SVNU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <!-- Header with logo and login -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-container">
+                        <img src="./logo.jpeg" alt="SVNU Logo" class="logo">
+                        <div class="logo-text">
+                            <h1>Student library</h1>
+                            <hr>
+                            <p>SVNU</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-section">
+                    <div class="icon-link">
+                        <a href="index.html"><i class="fa-solid fa-house" style="color: #0c2a5d;"></i></a>
+                        <a href="../Signup/my_account.html"><i class="fa-solid fa-user" style="color: #0c2a5d;"></i></a>
+                    </div>
+                    <div class="link">
+                        <a href="../Signup/signup.html">SIGN UP</a> | 
+                        <a href="../login/login.html">LOG IN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation menu -->
+    <nav class="main-nav">
+        <div class="container">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">TOP RATED <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">E-Books</a></li>
+                        <li><a href="#">Materials</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">LEARNING TECH <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Computer Science</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">SERVICES <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Upload File</a></li>
+                        <li><a href="#">Download</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
+
+    <!-- Search Bar -->
+    <div class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Search..">
+                    <button class="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8" />
+                            <path d="m21 21-4.3-4.3" />
+                        </svg>
+                    </button>
+                </div>
+                <span class="by-text">by</span>
+                <div class="nav-menu">
+                    <ul>
+                        <li class="nav-items">
+                            <div class="dropdown">
+                                <a href="#" class="nav-links" style="color: #0c2a5d;">KEYWORD <i class="fas fa-chevron-down"></i></a>
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="#title">Title</a></li>
+                                <li><a href="#subject">Subject</a></li>
+                                <li><a href="#tag">Tag</a></li>
+                                <li><a href="#author">Author</a></li>
+                                <li><a href="#user">User</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="text-content">
+                    <h2>Welcome to our Student Library</h2>
+                    <p>
+                        Your Gateway to Knowledge! We are a digital library providing
+                        access to a vast collection of books, research papers, and educational
+                        resources to support students, researchers, and knowledge seekers.
+                    </p>
+                    <p>
+                        We are a digital library providing access to a vast collection of books,
+                        research papers, and educational resources to support students,
+                        researchers, and knowledge seekers. Start your journey today –
+                        browse our collection, search for books, or learn more about us
+                    </p>
+                </div>
+                <div class="image-content">
+                    <img src="./book.jpeg" alt="Digital Book">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Main content About US -->
+    <main class="main-content">
+        <div class="container">
+            <h1>About Us</h1>
+            
+            <div class="team-section">
+                <div class="team-grid">
+                    <!-- Team member cards -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Sara.jpeg" alt="Sara magdy">
+                        </div>
+                        <h3 class="member-name">Sara magdy</h3>
+                        <p class="member-role">UI UX Designer</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Amna.jpeg" alt="Amna Zaher">
+                        </div>
+                        <h3 class="member-name">Amna Zaher</h3>
+                        <p class="member-role">Frontend Developer</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Hana.jpeg" alt="Hana Serag">
+                        </div>
+                        <h3 class="member-name">Hana Serag</h3>
+                        <p class="member-role">Backend Developer</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Tasneem.jpeg" alt="Tasneem Nehad">
+                        </div>
+                        <h3 class="member-name">Tasneem Nehad</h3>
+                        <p class="member-role">Frontend Developer</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Mai.jpeg" alt="Mai Asaad">
+                        </div>
+                        <h3 class="member-name">Mai Asaad</h3>
+                        <p class="member-role">Frontend Developer</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="Areej.jpeg" alt="Areej Shawky">
+                        </div>
+                        <h3 class="member-name">Areej Shawky</h3>
+                        <p class="member-role">Backend Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!--Book-->
+    <section class="book-carousel">
+        <div class="carousel-header">
+            <a href="#" class="see-all">SEE ALL →</a>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="AI (1).jpeg" alt="Information Technology">
+                </div>
+                <div class="swiper-slide">
+                    <img src="ML.jpeg" alt="Machine Learning">
+                </div>
+                <div class="swiper-slide">
+                    <img src="CS.jpeg" alt="Computer Science">
+                </div>
+                <div class="swiper-slide">
+                    <img src="gate.jpeg" alt="GATE">
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Swiper.js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="footer-logo">Student library</h2>
+                <hr class="footer-hr">
+                <p class="university">SVNU</p>
+                <p class="description">
+                    A haven of knowledge where you can find comprehensive resources, detailed 
+                    explanations, and a wide selection of books to support your learning journey.
+                </p>
+            </div>
+            
+            <div class="footer-section contact">
+                <h2 class="section-title">Stay in touch | Contact us</h2>
+                <ul class="social-links">
+                    <li><i class="fas fa-circle fa-xs"></i> <a href="#">Instagram</a></li>
+                    <li><i class="fas fa-circle fa-xs"></i> <a href="#">Facebook</a></li>
+                    <li><i class="fas fa-circle fa-xs"></i> <a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section member">
+                <h2 class="section-title">Member Information</h2>
+                <ul class="member-links">
+                    <li><i class="fas fa-circle fa-xs"></i> <a href="#">Resources for member</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Report Accessibility Issues and Get Help</a>
+                <a href="#">Emergency Services</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
